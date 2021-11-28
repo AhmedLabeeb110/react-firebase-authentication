@@ -1,0 +1,55 @@
+/* Nav Bar and Homepage */
+.TopNav{
+    background: linear-gradient(277deg, rgba(80,93,185,1) 0%, rgba(94,35,140,1) 0%, rgba(4,2,25,1) 97%, rgba(4,2,25,1) 100%);
+}
+.inner-nav-items {
+    color: light;
+}
+.caption{
+    color: #5C228A;
+    margin-left: 9%;
+    margin-top: -15%;
+}
+.search-input{
+    gap: 2%;
+    display: flex;
+    width: 45%;
+}
+.banner-image{
+    margin-top: 8%;
+    margin-left: 63%;
+    width: 32%;
+    height: 32%;
+    animation-name: Moving;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.8s;
+    animation-delay: 0.1s;
+}
+@keyframes Moving {
+    0%{
+      transform: scale(1);
+    }
+
+    100%{
+       transform: scale(1.2);
+    }
+}
+
+.GeneralSection h1{
+    color: #5C228A;
+    font-size: 160%;
+    display: flex-box;
+    text-align: left; 
+    padding: 0.7%;
+    padding-top: 1%;
+    margin-top: 4%;
+}
+
+.GeneralSection p{
+    color: #0B0521;
+    font-size: 100%;
+    display: flex-box;
+    text-align: left; 
+    padding: 0.7%;
+}
